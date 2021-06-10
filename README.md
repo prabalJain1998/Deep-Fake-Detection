@@ -11,6 +11,7 @@ This Repository contains 4 Folders : </br>
 We have used DFDC Kaggle Dataset which contains More than 100,000 Videos, Featuring eight facial modification algorithms in which  Actors were Paid to create Deep Fake Videos,dataset was Divided into 50 Batches.
 ![](images/dfdc.png)
 
+For Baselines Implementations : (https://arxiv.org/abs/1809.00888)
 ## Baseline Architecture : **CNN** (Left) **MesoNet** (Right)
 ![](images/Baseline_arch.JPG)
 
