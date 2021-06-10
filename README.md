@@ -11,12 +11,11 @@ This Repository contains 4 Folders : </br>
 We have used DFDC Kaggle Dataset which contains More than 100,000 Videos, Featuring eight facial modification algorithms in which  Actors were Paid to create Deep Fake Videos,dataset was Divided into 50 Batches.
 ![](images/dfdc.png)
 
-## Baseline Architecture :
-**CNN** (Left) **MesoNet** (Right)
-![](images/Baseline_arch.jpg)
+## Baseline Architecture : **CNN** (Left) **MesoNet** (Right)
+![](images/Baseline_arch.JPG)
 
 ## Baseline Results :
-![](images/baseline_results.jpg)
+![](images/baseline_results.JPG)
 
 ## Baseline Limitations/Assumptions :
 1. Due to computational bottleneck, baseline was performed on a single batch ‘’dfdc_train-part_13.zip’’
@@ -26,15 +25,18 @@ We have used DFDC Kaggle Dataset which contains More than 100,000 Videos, Featur
 5. Class Imbalance : More number of Fake Videos as compared to real Videos.
 
 
-## Final Architecture
-**InceptionConv**
-![](images/final_architecture.jpg)
+## Final Architecture : InceptionConv
+![](images/final_architecture.JPG)
 
 ## Conclusion
-1. Facebook reported Highest Accuracy on whole Dataset : **82%** </br>
+Facebook reported Highest Accuracy on whole Dataset : **82%** </br>
 Kaggle Winner  Profile : (https://www.kaggle.com/selimsef) </br>
 (Pretrained Encoder Models were used like EfficientNet b7, trained on 4 GPU’s, 2500 iteration per epoch) </br> 
 We were able to achieve 80% Accuracy on DFDC Dataset (5000 Videos with equal distribution of Fake and Real Videos)
 We might Achieve more accuracy if Provided GPU Processing On whole Dataset of 124k videos. </br>
 **Note : No Pretrained Model is used in this Project**
 
+### Team Members :
+Prabal Jain (MT20115)
+Pruthivi Raj Behera (MT20037)
+TG Narayanan (MT20027)
